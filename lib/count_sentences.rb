@@ -27,12 +27,7 @@ class String
     end
   end
 
-  def count_sentences
-    str_count = []
-    has = self.include?(".")
-    if str_count << has
-      return str_count.length
-    end
-      
-  end
+def count_sentences
+  self.split(/[.?!]+/).count
+end
 end
