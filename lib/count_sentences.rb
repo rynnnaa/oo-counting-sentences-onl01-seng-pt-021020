@@ -4,7 +4,6 @@ class String
 
   def sentence?
     @string.include?(".")
-    return true
   end
 
   def question?
