@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    @string.contains"."
+    @string.includes?"."
+    return true
   end
 
   def question?
