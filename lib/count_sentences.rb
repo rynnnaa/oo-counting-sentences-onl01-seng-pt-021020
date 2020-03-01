@@ -28,9 +28,10 @@ class String
   end
 
   def count_sentences
-    split_sentence = []
-    split_sentence << self.split
-    
-    return split_sentence.length
+    str_count = []
+    has = self.include?(".")
+    str_count << has
+    return str_count
+      
   end
 end
