@@ -4,7 +4,6 @@ class String
 
   def sentence?
     @string
-    
   end
 
   def question?
