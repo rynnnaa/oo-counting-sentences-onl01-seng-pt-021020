@@ -3,7 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    @string.include?(".")
+    if @string.include?(".")
+      return TRUE
+    else 
+      FALSE
+    end
   end
 
   def question?
