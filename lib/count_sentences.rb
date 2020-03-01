@@ -33,4 +33,3 @@ class String
     return split_sentence.length
   end
 end
-+
