@@ -30,6 +30,7 @@ class String
   def count_sentences
     split_sentence = []
     split_sentence << self.split
+    
     return split_sentence.length
   end
 end
