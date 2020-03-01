@@ -28,7 +28,8 @@ class String
   end
 
   def count_sentences
-    str = [] << @string
-    return str
+    split_sentence = self.split
+    return split_sentence
   end
 end
++
