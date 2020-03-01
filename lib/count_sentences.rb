@@ -5,6 +5,8 @@ class String
   def sentence?
     if self.include?(".")
       return TRUE
+    else 
+      FALSE
     end
   end
 
