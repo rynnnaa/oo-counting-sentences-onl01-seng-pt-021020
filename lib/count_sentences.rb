@@ -31,7 +31,7 @@ class String
     str_count = []
     has = self.include?(".")
     if str_count << has
-      return str_count
+      return str_count.length
     end
       
   end
