@@ -30,8 +30,9 @@ class String
   def count_sentences
     str_count = []
     has = self.include?(".")
-    str_count << has
-    return str_count
+    if str_count << has
+      return str_count
+    end
       
   end
 end
