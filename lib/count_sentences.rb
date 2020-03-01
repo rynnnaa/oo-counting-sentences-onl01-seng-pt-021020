@@ -28,6 +28,8 @@ class String
   end
 
   def count_sentences
+    str = [] << @string
+    return str
 
   end
 end
