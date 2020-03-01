@@ -11,6 +11,11 @@ class String
   end
 
   def question?
+    if self.include?("?")
+      return TRUE
+    else
+      FALSE
+    end
 
   end
 
